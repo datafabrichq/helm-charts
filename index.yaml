@@ -3,7 +3,7 @@ entries:
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:40:27.319989324Z"
+    created: "2024-02-05T11:58:48.389147032Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -11,7 +11,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: Nebula Helm chart
-    digest: b6b8d9618b125cfc51b13be15f1f36b28051a415734754121c6eabf2d3a27e3f
+    digest: de9ad9be376a9011578df9291eff1c2c450b9b8ede179afc1e9da4a3b6586abf
     home: https://github.com/datafabrichq/nebula
     maintainers:
     - email: contact@nebula.com
@@ -24,7 +24,7 @@ entries:
   nebulaconsole-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:40:27.321003946Z"
+    created: "2024-02-05T11:58:48.389922332Z"
     description: The deployment component for Nebulaconsole
     digest: f70626a165ae5bbb6a876db84025b2a336ec24700972e2baf81b5a701ab25d88
     name: nebulaconsole-deployment
@@ -35,7 +35,7 @@ entries:
   nebulaconsole-deployment-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:40:27.324155114Z"
+    created: "2024-02-05T11:58:48.393264631Z"
     description: A Helm chart for Kubernetes
     digest: 1ff583f6c9680c5173801d67666e7a348be385aaae6ca049d4c59fdc48fd5618
     name: nebulaconsole-deployment-crds
@@ -46,7 +46,7 @@ entries:
   nebulaconsole-image-builder:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:40:27.324942131Z"
+    created: "2024-02-05T11:58:48.39441923Z"
     description: The image-builder component for Nebulaconsole
     digest: aac1ab2d95e46f63ed169ef88c7f03ef03d74393a4be6ddaf5958aae7e9d8760
     name: nebulaconsole-image-builder
@@ -57,7 +57,7 @@ entries:
   nebulaconsole-image-builder-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:40:27.325544344Z"
+    created: "2024-02-05T11:58:48.39504193Z"
     description: A Helm chart for Kubernetes
     digest: c820525b703899226ec7b21c4f94ed2bcc0a218e7a9391f208c8a36eebc16af5
     name: nebulaconsole-image-builder-crds
@@ -65,4 +65,4 @@ entries:
     urls:
     - packages/nebulaconsole-image-builder-crds-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-05T11:40:27.317446169Z"
+generated: "2024-02-05T11:58:48.387264032Z"
