@@ -1,93 +1,24 @@
 apiVersion: v1
 entries:
-  nebulaconsole:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2024-01-18T17:01:06.775825336Z"
-      dependencies:
-        - name: common
-          repository: https://charts.bitnami.com/bitnami
-          tags:
-            - bitnami-common
-          version: 1.x.x
-      description: Nebula Helm chart
-      digest: 0fbe7a77208ee505da553ca5e38c3e07d6142a76d188f640858bc2fe90d5231c
-      home: https://github.com/datafabrichq/nebulaconsole
-      maintainers:
-        - email: contact@nebula.ai
-          name: Nebula developers
-      name: nebulaconsole
-      type: application
-      urls:
-        - packages/nebulaconsole-1.0.0.tgz
-      version: 1.0.0
-
-  nebulaconsole-deployment:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2024-01-18T17:01:06.811611107Z"
-      description: The deployment component for Nebula
-      digest: 854998b2f2600d885459a097a930fc8f36eacbbc8e46e9375fa1f6bb54bf5db2
-      name: nebulaconsole-deployment
-      type: application
-      urls:
-        - packages/nebulaconsole-deployment-1.0.0.tgz
-      version: 1.0.0
-
-  nebulaconsole-deployment-crds:
-    - apiVersion: v2
-      appVersion: 1.1.0
-      created: "2024-01-18T17:01:06.845443706Z"
-      description: A Helm chart for Kubernetes
-      digest: bddf12e359e8148a0697438176711711763ca174a4204b2f758c7ba63a950664
-      name: nebulaconsole-deployment-crds
-      type: application
-      urls:
-        - packages/nebulaconsole-deployment-crds-1.1.0.tgz
-      version: 1.1.0
-
-  nebulaconsole-image-builder:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2024-01-18T17:01:06.888899527Z"
-      description: The image-builder component for Nebula
-      digest: d05c0d01ac1984ed74c5b2f88b1d5c7c6d4736e152b99393c865d0550eb2210a
-      name: nebulaconsole-image-builder
-      type: application
-      urls:
-        - packages/nebulaconsole-image-builder-1.0.0.tgz
-      version: 1.0.0
-  nebulaconsole-image-builder-crds:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2024-01-18T17:01:06.915012782Z"
-      description: A Helm chart for Kubernetes
-      digest: 872d46ba3c591379aed77c7beeeca9944194b36f43c18957b87bd3c3ec3b273a
-      name: nebulaconsole-image-builder-crds
-      type: application
-      urls:
-        - packages/nebulaconsole-image-builder-crds-1.0.0.tgz
-      version: 1.0.0
-  nebulaconsole-serverless:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2024-01-18T17:01:06.93838685Z"
-      description: The deployment component for Nebula
-      digest: 92878d733dd9f47a2a361867d3d24848dea87151748842bd33e60aa623a6e5bc
-      name: nebulaconsole-serverless
-      type: application
-      urls:
-        - packages/nebulaconsole-serverless-1.0.0.tgz
-      version: 1.0.0
-  nebulaconsole-serverless-crds:    
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2024-01-18T17:01:06.946424003Z"
-      description: A Helm chart for Kubernetes
-      digest: 3939c864ae1ea02e6e1dc1bab4d308d8bcaae67f0c51598bf9c4f7b07a2d955b
-      name: nebulaconsole-serverless-crds
-      type: application
-      urls:
-        - packages/nebulaconsole-serverless-crds-1.0.0.tgz
-      version: 1.0.0
-generated: "2024-01-18T17:01:06.774522442Z"
+  nebula:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-05T08:37:32.763335094Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Nebula Helm chart
+    digest: 2eb41373c1468443503d78d89c9fb3ca973b8fb980c9c7d434f5ea7f8784d2bc
+    home: https://github.com/datafabrichq/nebula
+    maintainers:
+    - email: contact@nebula.com
+      name: datafabric
+    name: nebula
+    type: application
+    urls:
+    - packages/nebula-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-02-05T08:37:32.761420605Z"
