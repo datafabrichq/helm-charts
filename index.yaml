@@ -3,7 +3,7 @@ entries:
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:58:49.59345716Z"
+    created: "2024-02-05T11:58:50.890183559Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -24,7 +24,7 @@ entries:
   nebulaconsole-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:58:49.594241259Z"
+    created: "2024-02-05T11:58:50.890974759Z"
     description: The deployment component for Nebulaconsole
     digest: 634180fc25a3e4d001215e0fabb164b992ef50ab698a08b9a4d5cea13c2805f2
     name: nebulaconsole-deployment
@@ -35,9 +35,9 @@ entries:
   nebulaconsole-deployment-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:58:49.597434259Z"
+    created: "2024-02-05T11:58:50.894254858Z"
     description: A Helm chart for Kubernetes
-    digest: 1ff583f6c9680c5173801d67666e7a348be385aaae6ca049d4c59fdc48fd5618
+    digest: 8bc0e535fbb8f90718b7fc3ccef915f0e5ffe87c8e7117d05e8bc43db858948b
     name: nebulaconsole-deployment-crds
     type: application
     urls:
@@ -46,7 +46,7 @@ entries:
   nebulaconsole-image-builder:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:58:49.598175858Z"
+    created: "2024-02-05T11:58:50.895032958Z"
     description: The image-builder component for Nebulaconsole
     digest: aac1ab2d95e46f63ed169ef88c7f03ef03d74393a4be6ddaf5958aae7e9d8760
     name: nebulaconsole-image-builder
@@ -57,7 +57,7 @@ entries:
   nebulaconsole-image-builder-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T11:58:49.599080058Z"
+    created: "2024-02-05T11:58:50.895926358Z"
     description: A Helm chart for Kubernetes
     digest: c820525b703899226ec7b21c4f94ed2bcc0a218e7a9391f208c8a36eebc16af5
     name: nebulaconsole-image-builder-crds
@@ -65,4 +65,4 @@ entries:
     urls:
     - packages/nebulaconsole-image-builder-crds-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-05T11:58:49.590864661Z"
+generated: "2024-02-05T11:58:50.88798896Z"
