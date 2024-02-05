@@ -3,7 +3,7 @@ entries:
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T09:07:02.642555306Z"
+    created: "2024-02-05T10:57:08.903715492Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -21,4 +21,15 @@ entries:
     urls:
     - packages/nebula-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-05T09:07:02.63955346Z"
+  nebulaconsole-deployment:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-05T10:57:08.904490408Z"
+    description: The deployment component for Nebulaconsole
+    digest: f70626a165ae5bbb6a876db84025b2a336ec24700972e2baf81b5a701ab25d88
+    name: nebulaconsole-deployment
+    type: application
+    urls:
+    - packages/nebulaconsole-deployment-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-02-05T10:57:08.901496149Z"
