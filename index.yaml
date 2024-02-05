@@ -3,7 +3,7 @@ entries:
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T16:02:32.882233583Z"
+    created: "2024-02-05T16:02:33.89131328Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -24,7 +24,7 @@ entries:
   nebulaconsole-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T16:02:32.882986891Z"
+    created: "2024-02-05T16:02:33.892085881Z"
     description: The deployment component for Nebulaconsole
     digest: 574d4d3243a52c559c64bd1872a6d1172425131200748e9bdf3d0049f1918e96
     name: nebulaconsole-deployment
@@ -35,7 +35,7 @@ entries:
   nebulaconsole-deployment-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T16:02:32.883547296Z"
+    created: "2024-02-05T16:02:33.892646281Z"
     description: A Helm chart for Kubernetes
     digest: e195f906572bb21729ea2da252487c1dc2568369b2742237a52455b1e44d146c
     name: nebulaconsole-deployment-comp-operator
@@ -46,7 +46,7 @@ entries:
   nebulaconsole-deployment-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T16:02:32.886515624Z"
+    created: "2024-02-05T16:02:33.896500084Z"
     description: A Helm chart for Kubernetes
     digest: 1255ce447227cff5e87d7f20812d998f716a2c73b62248bf29ca08f90183b5e8
     name: nebulaconsole-deployment-crds
@@ -57,9 +57,9 @@ entries:
   nebulaconsole-image-builder:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T16:02:32.887381932Z"
+    created: "2024-02-05T16:02:33.897291785Z"
     description: The image-builder component for Nebulaconsole
-    digest: 480be4d6fb6c9b2d0a92be72c6d3d8b31fd63e9bf7c3546827b5c4fb8c4d07fb
+    digest: 9295c650521b333ef7645e64cbbae9268bc71287634d1fc6cdfeb33129ea0b48
     name: nebulaconsole-image-builder
     type: application
     urls:
@@ -68,7 +68,7 @@ entries:
   nebulaconsole-image-builder-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T16:02:32.888121839Z"
+    created: "2024-02-05T16:02:33.897904485Z"
     description: A Helm chart for Kubernetes
     digest: 1b330bb6acd0b2eca96604c751e3a01d954d38ff9377901cc612c7e3e1628da0
     name: nebulaconsole-image-builder-crds
@@ -79,7 +79,7 @@ entries:
   nebulaconsole-logging-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-05T16:02:32.889112448Z"
+    created: "2024-02-05T16:02:33.898445786Z"
     description: A Helm chart for Kubernetes
     digest: 040ae31697e5594f1d39fe6cc62361184930497d6ff7f41b8b77c3dcd34df061
     name: nebulaconsole-logging-comp-operator
@@ -87,4 +87,4 @@ entries:
     urls:
     - packages/nebulaconsole-logging-comp-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-05T16:02:32.879289656Z"
+generated: "2024-02-05T16:02:33.887003777Z"
