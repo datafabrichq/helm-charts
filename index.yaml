@@ -3,7 +3,7 @@ entries:
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.655499866Z"
+    created: "2024-02-07T12:57:45.588733049Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -24,7 +24,7 @@ entries:
   nebula-binary:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.657837388Z"
+    created: "2024-02-07T12:57:45.590900923Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -45,7 +45,7 @@ entries:
   nebula-sandbox:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.673636836Z"
+    created: "2024-02-07T12:57:45.607075627Z"
     dependencies:
     - condition: docker-registry.enabled
       name: docker-registry
@@ -77,9 +77,9 @@ entries:
   nebulaagent:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.674171141Z"
+    created: "2024-02-07T12:57:45.607573821Z"
     description: A Helm chart for Nebula agent
-    digest: e441f19f6f0b847d778346f19be32ed02f5c0f557b431b46cbf89060062a1f99
+    digest: a3ef974b9a822f3e915ec8e35eab44bb4942ebd75827ebe6bb7033d8a87d0616
     name: nebulaagent
     type: application
     urls:
@@ -88,7 +88,7 @@ entries:
   nebulaconsole:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.696236347Z"
+    created: "2024-02-07T12:57:45.626080296Z"
     dependencies:
     - alias: nebula
       name: nebula-core
@@ -126,7 +126,7 @@ entries:
   nebulaconsole-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.697104055Z"
+    created: "2024-02-07T12:57:45.626833187Z"
     description: The deployment component for Nebulaconsole
     digest: 50530b99fba3eeaefa1baec72a4e256e64606420bb68fb087135c6e8ea19509c
     name: nebulaconsole-deployment
@@ -137,7 +137,7 @@ entries:
   nebulaconsole-deployment-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.697687761Z"
+    created: "2024-02-07T12:57:45.627782575Z"
     description: A Helm chart for Kubernetes
     digest: bf28277b19ed23df0a4f977eef9a8b5fac5c84871c49909f1224c0f8bd0936c0
     name: nebulaconsole-deployment-comp-operator
@@ -148,7 +148,7 @@ entries:
   nebulaconsole-deployment-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.70085839Z"
+    created: "2024-02-07T12:57:45.630962836Z"
     description: A Helm chart for Kubernetes
     digest: a4e705a370804a15bea7863af6d0f173b6e92679828d764b7c4b495b6e79682d
     name: nebulaconsole-deployment-crds
@@ -159,7 +159,7 @@ entries:
   nebulaconsole-image-builder:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.701629297Z"
+    created: "2024-02-07T12:57:45.631769027Z"
     description: The image-builder component for Nebulaconsole
     digest: b716a3e86e5691e9edbec569f6d84a651af8d465e1d3915d5c676d5190184da8
     name: nebulaconsole-image-builder
@@ -170,7 +170,7 @@ entries:
   nebulaconsole-image-builder-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.702214903Z"
+    created: "2024-02-07T12:57:45.632380419Z"
     description: A Helm chart for Kubernetes
     digest: 0033c70617e4a75ecdafa9892a0779b071c88512d7b03f279758725dfe94b78f
     name: nebulaconsole-image-builder-crds
@@ -181,7 +181,7 @@ entries:
   nebulaconsole-logging-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.702762208Z"
+    created: "2024-02-07T12:57:45.632908213Z"
     description: A Helm chart for Kubernetes
     digest: 12aa7efffbf7f66903e934880cbf61c25c08a05d7ab0e7bd8713360fb2115599
     name: nebulaconsole-logging-comp-operator
@@ -192,7 +192,7 @@ entries:
   nebulaconsole-monitoring-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:44.703288513Z"
+    created: "2024-02-07T12:57:45.633441506Z"
     description: A Helm chart for Kubernetes
     digest: 274fcdf6bbf1df0335543393370f5580a77178393061eaa1a920798ca9f154ce
     name: nebulaconsole-monitoring-comp-operator
@@ -200,4 +200,4 @@ entries:
     urls:
     - packages/nebulaconsole-monitoring-comp-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-07T12:57:44.65273084Z"
+generated: "2024-02-07T12:57:45.586854772Z"
