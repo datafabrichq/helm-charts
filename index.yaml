@@ -3,7 +3,7 @@ entries:
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.796719571Z"
+    created: "2024-02-07T13:00:54.745302081Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -24,7 +24,7 @@ entries:
   nebula-binary:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.79928842Z"
+    created: "2024-02-07T13:00:54.747602697Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -45,7 +45,7 @@ entries:
   nebula-core:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.804181714Z"
+    created: "2024-02-07T13:00:54.75373664Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -62,10 +62,40 @@ entries:
     urls:
     - packages/nebula-core-1.0.0.tgz
     version: 1.0.0
+  nebula-deps:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-07T13:00:54.767401036Z"
+    dependencies:
+    - condition: contour.enabled
+      name: contour
+      repository: https://charts.bitnami.com/bitnami
+      version: 7.10.1
+    - alias: sparkoperator
+      condition: sparkoperator.enabled
+      name: spark-operator
+      repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
+      version: 1.1.15
+    - alias: daskoperator
+      condition: daskoperator.enabled
+      name: dask-kubernetes-operator
+      repository: https://helm.dask.org
+      version: 2022.12.0
+    - condition: kubernetes-dashboard.enabled
+      name: kubernetes-dashboard
+      repository: https://kubernetes.github.io/dashboard/
+      version: 4.0.2
+    description: A Helm chart for Nebula dependency
+    digest: 6e2ec5a0fdbe7c83c813ffc32437fb36af7e436ced2f36bc030e39fd8e4c9aa3
+    name: nebula-deps
+    type: application
+    urls:
+    - packages/nebula-deps-1.0.0.tgz
+    version: 1.0.0
   nebula-sandbox:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.822151456Z"
+    created: "2024-02-07T13:00:54.78944369Z"
     dependencies:
     - condition: docker-registry.enabled
       name: docker-registry
@@ -97,7 +127,7 @@ entries:
   nebulaagent:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.822735968Z"
+    created: "2024-02-07T13:00:54.789998294Z"
     description: A Helm chart for Nebula agent
     digest: a3ef974b9a822f3e915ec8e35eab44bb4942ebd75827ebe6bb7033d8a87d0616
     name: nebulaagent
@@ -108,7 +138,7 @@ entries:
   nebulaconsole:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.843603966Z"
+    created: "2024-02-07T13:00:54.81530317Z"
     dependencies:
     - alias: nebula
       name: nebula-core
@@ -146,7 +176,7 @@ entries:
   nebulaconsole-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.844545684Z"
+    created: "2024-02-07T13:00:54.816093776Z"
     description: The deployment component for Nebulaconsole
     digest: 50530b99fba3eeaefa1baec72a4e256e64606420bb68fb087135c6e8ea19509c
     name: nebulaconsole-deployment
@@ -157,7 +187,7 @@ entries:
   nebulaconsole-deployment-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.845790607Z"
+    created: "2024-02-07T13:00:54.816904682Z"
     description: A Helm chart for Kubernetes
     digest: bf28277b19ed23df0a4f977eef9a8b5fac5c84871c49909f1224c0f8bd0936c0
     name: nebulaconsole-deployment-comp-operator
@@ -168,7 +198,7 @@ entries:
   nebulaconsole-deployment-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.852009326Z"
+    created: "2024-02-07T13:00:54.820800009Z"
     description: A Helm chart for Kubernetes
     digest: a4e705a370804a15bea7863af6d0f173b6e92679828d764b7c4b495b6e79682d
     name: nebulaconsole-deployment-crds
@@ -179,7 +209,7 @@ entries:
   nebulaconsole-image-builder:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.852847142Z"
+    created: "2024-02-07T13:00:54.821646115Z"
     description: The image-builder component for Nebulaconsole
     digest: b716a3e86e5691e9edbec569f6d84a651af8d465e1d3915d5c676d5190184da8
     name: nebulaconsole-image-builder
@@ -190,7 +220,7 @@ entries:
   nebulaconsole-image-builder-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.853518755Z"
+    created: "2024-02-07T13:00:54.822264319Z"
     description: A Helm chart for Kubernetes
     digest: 0033c70617e4a75ecdafa9892a0779b071c88512d7b03f279758725dfe94b78f
     name: nebulaconsole-image-builder-crds
@@ -201,7 +231,7 @@ entries:
   nebulaconsole-logging-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.854201168Z"
+    created: "2024-02-07T13:00:54.822839923Z"
     description: A Helm chart for Kubernetes
     digest: 12aa7efffbf7f66903e934880cbf61c25c08a05d7ab0e7bd8713360fb2115599
     name: nebulaconsole-logging-comp-operator
@@ -212,7 +242,7 @@ entries:
   nebulaconsole-monitoring-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-07T12:57:47.85483848Z"
+    created: "2024-02-07T13:00:54.823402227Z"
     description: A Helm chart for Kubernetes
     digest: 274fcdf6bbf1df0335543393370f5580a77178393061eaa1a920798ca9f154ce
     name: nebulaconsole-monitoring-comp-operator
@@ -220,4 +250,4 @@ entries:
     urls:
     - packages/nebulaconsole-monitoring-comp-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-07T12:57:47.793094502Z"
+generated: "2024-02-07T13:00:54.742935765Z"
