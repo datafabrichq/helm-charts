@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  kozmo-deployment:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-11T11:43:15.623732211Z"
+    description: The deployment component for Kozmo
+    digest: e0daff953e92495f063f15b536a114262c88acbc95513a034bdc1b7d8cc962e4
+    name: kozmo-deployment
+    type: application
+    urls:
+    - packages/kozmo-deployment-1.0.0.tgz
+    version: 1.0.0
   kozmo-deployment-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:12.161023363Z"
+    created: "2024-02-11T11:43:15.624532415Z"
     description: A Helm chart for Kubernetes
     digest: 269dbafc6f15a6ba9b1aa8a064cccb797ea1540cd6a4fb90175272ea11abb402
     name: kozmo-deployment-comp-operator
@@ -14,7 +25,7 @@ entries:
   kozmo-deployment-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:12.170300158Z"
+    created: "2024-02-11T11:43:15.628607533Z"
     description: A Helm chart for Kubernetes
     digest: 43b64deff204c8322b0234ddffd75e78fc494bfeee5828af9f43faac151f933a
     name: kozmo-deployment-crds
@@ -25,7 +36,7 @@ entries:
   kozmo-logging-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:12.170853782Z"
+    created: "2024-02-11T11:43:15.629565737Z"
     description: A Helm chart for Kubernetes
     digest: 18f7326d6e9947047c0fce4d528145ac55f09222884adbd540df37f23a4804e6
     name: kozmo-logging-comp-operator
@@ -36,7 +47,7 @@ entries:
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:12.172511953Z"
+    created: "2024-02-11T11:43:15.631419645Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -57,7 +68,7 @@ entries:
   nebula-binary:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:12.174669845Z"
+    created: "2024-02-11T11:43:15.633674555Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -78,7 +89,7 @@ entries:
   nebula-core:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:12.179266241Z"
+    created: "2024-02-11T11:43:15.638504177Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -98,7 +109,7 @@ entries:
   nebula-deps:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:12.192145291Z"
+    created: "2024-02-11T11:43:15.653516243Z"
     dependencies:
     - condition: contour.enabled
       name: contour
@@ -128,7 +139,7 @@ entries:
   nebula-sandbox:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:12.209164217Z"
+    created: "2024-02-11T11:43:15.669507314Z"
     dependencies:
     - condition: docker-registry.enabled
       name: docker-registry
@@ -160,7 +171,7 @@ entries:
   nebulaagent:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:12.209676539Z"
+    created: "2024-02-11T11:43:15.670153617Z"
     description: A Helm chart for Nebula agent
     digest: a3ef974b9a822f3e915ec8e35eab44bb4942ebd75827ebe6bb7033d8a87d0616
     name: nebulaagent
@@ -168,4 +179,4 @@ entries:
     urls:
     - packages/nebulaagent-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-11T11:43:12.160172026Z"
+generated: "2024-02-11T11:43:15.622622506Z"
