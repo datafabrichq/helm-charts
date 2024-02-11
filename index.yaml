@@ -3,7 +3,7 @@ entries:
   kozmo-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.293622715Z"
+    created: "2024-02-11T11:43:57.518836581Z"
     description: The deployment component for Kozmo
     digest: e0daff953e92495f063f15b536a114262c88acbc95513a034bdc1b7d8cc962e4
     name: kozmo-deployment
@@ -14,7 +14,7 @@ entries:
   kozmo-deployment-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.294318029Z"
+    created: "2024-02-11T11:43:57.519412775Z"
     description: A Helm chart for Kubernetes
     digest: 269dbafc6f15a6ba9b1aa8a064cccb797ea1540cd6a4fb90175272ea11abb402
     name: kozmo-deployment-comp-operator
@@ -25,7 +25,7 @@ entries:
   kozmo-deployment-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.297512691Z"
+    created: "2024-02-11T11:43:57.522292843Z"
     description: A Helm chart for Kubernetes
     digest: 43b64deff204c8322b0234ddffd75e78fc494bfeee5828af9f43faac151f933a
     name: kozmo-deployment-crds
@@ -36,7 +36,7 @@ entries:
   kozmo-image-builder-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.298093803Z"
+    created: "2024-02-11T11:43:57.523286032Z"
     description: A Helm chart for Kubernetes
     digest: d181433d9117e583d74ff571fecd62a02e2def82c75b681f22b0a79c17a08fae
     name: kozmo-image-builder-crds
@@ -47,7 +47,7 @@ entries:
   kozmo-logging-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.298701415Z"
+    created: "2024-02-11T11:43:57.524268022Z"
     description: A Helm chart for Kubernetes
     digest: 18f7326d6e9947047c0fce4d528145ac55f09222884adbd540df37f23a4804e6
     name: kozmo-logging-comp-operator
@@ -55,10 +55,21 @@ entries:
     urls:
     - packages/kozmo-logging-comp-operator-1.0.0.tgz
     version: 1.0.0
+  kozmo-monitoring-comp-operator:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-11T11:43:57.524958714Z"
+    description: A Helm chart for Kubernetes
+    digest: d7c43a8c359aad3253623f59ae5a4223e41a1a909d56aacb0a407152e0a22d68
+    name: kozmo-monitoring-comp-operator
+    type: application
+    urls:
+    - packages/kozmo-monitoring-comp-operator-1.0.0.tgz
+    version: 1.0.0
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.300242545Z"
+    created: "2024-02-11T11:43:57.526742494Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -79,7 +90,7 @@ entries:
   nebula-binary:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.303520209Z"
+    created: "2024-02-11T11:43:57.528869271Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -100,7 +111,7 @@ entries:
   nebula-core:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.30766009Z"
+    created: "2024-02-11T11:43:57.533221023Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -120,7 +131,7 @@ entries:
   nebula-deps:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.320236336Z"
+    created: "2024-02-11T11:43:57.546370178Z"
     dependencies:
     - condition: contour.enabled
       name: contour
@@ -150,7 +161,7 @@ entries:
   nebula-sandbox:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.334898123Z"
+    created: "2024-02-11T11:43:57.560958717Z"
     dependencies:
     - condition: docker-registry.enabled
       name: docker-registry
@@ -182,7 +193,7 @@ entries:
   nebulaagent:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T11:43:55.335575737Z"
+    created: "2024-02-11T11:43:57.561920407Z"
     description: A Helm chart for Nebula agent
     digest: a3ef974b9a822f3e915ec8e35eab44bb4942ebd75827ebe6bb7033d8a87d0616
     name: nebulaagent
@@ -190,4 +201,4 @@ entries:
     urls:
     - packages/nebulaagent-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-11T11:43:55.292427292Z"
+generated: "2024-02-11T11:43:57.515206921Z"
