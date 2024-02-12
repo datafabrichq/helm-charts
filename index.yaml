@@ -3,7 +3,7 @@ entries:
   kozmo:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.529927748Z"
+    created: "2024-02-12T13:19:24.207688904Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -24,7 +24,7 @@ entries:
   kozmo-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.530765655Z"
+    created: "2024-02-12T13:19:24.20841672Z"
     description: The deployment component for Kozmo
     digest: e0daff953e92495f063f15b536a114262c88acbc95513a034bdc1b7d8cc962e4
     name: kozmo-deployment
@@ -35,7 +35,7 @@ entries:
   kozmo-deployment-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.53142126Z"
+    created: "2024-02-12T13:19:24.208982032Z"
     description: A Helm chart for Kubernetes
     digest: 269dbafc6f15a6ba9b1aa8a064cccb797ea1540cd6a4fb90175272ea11abb402
     name: kozmo-deployment-comp-operator
@@ -46,7 +46,7 @@ entries:
   kozmo-deployment-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.535534595Z"
+    created: "2024-02-12T13:19:24.215316567Z"
     description: A Helm chart for Kubernetes
     digest: eafd2c02cb6228ed98341866b22536fa51513271c6fdfc173d326f4c758927d1
     name: kozmo-deployment-crds
@@ -54,10 +54,20 @@ entries:
     urls:
     - packages/kozmo-deployment-crds-1.0.0.tgz
     version: 1.0.0
+  - apiVersion: v2
+    appVersion: 0.0-7fe9b52d3b58cc4de7a90347260fae46505aabda
+    created: "2024-02-12T13:19:24.212204801Z"
+    description: A Helm chart for Kubernetes
+    digest: afe1e02dbf959175ec5a026df9c8179766000b3ef885de8e413ccd67a38b6d9a
+    name: kozmo-deployment-crds
+    type: application
+    urls:
+    - packages/kozmo-deployment-crds-0.0-7fe9b52d3b58cc4de7a90347260fae46505aabda.tgz
+    version: 0.0-7fe9b52d3b58cc4de7a90347260fae46505aabda
   kozmo-image-builder:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.536272702Z"
+    created: "2024-02-12T13:19:24.216009682Z"
     description: The image-builder component for Kozmo
     digest: 055d2a557c2424479a8e1dff373684ca076138d0ed13dff0b129747ffd8eddd4
     name: kozmo-image-builder
@@ -68,7 +78,7 @@ entries:
   kozmo-image-builder-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.536838407Z"
+    created: "2024-02-12T13:19:24.216556494Z"
     description: A Helm chart for Kubernetes
     digest: b00e11bb19c28295ef2908ccaf29c783f32ccc96aa086228d737e63863106091
     name: kozmo-image-builder-crds
@@ -79,7 +89,7 @@ entries:
   kozmo-logging-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.537379211Z"
+    created: "2024-02-12T13:19:24.217115906Z"
     description: A Helm chart for Kubernetes
     digest: ad0c6ee1355f43bf44da780f9e3aad45154ecc8505c1de7db2c593a776dda011
     name: kozmo-logging-comp-operator
@@ -90,7 +100,7 @@ entries:
   kozmo-monitoring-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.538098117Z"
+    created: "2024-02-12T13:19:24.217638217Z"
     description: A Helm chart for Kubernetes
     digest: 3099dbecbc84461587905fb1f3b67623482da3c45a52f0e083e35d13161f382f
     name: kozmo-monitoring-comp-operator
@@ -101,7 +111,7 @@ entries:
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.541251144Z"
+    created: "2024-02-12T13:19:24.219127449Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -122,7 +132,7 @@ entries:
   nebula-binary:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.543644364Z"
+    created: "2024-02-12T13:19:24.221948809Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -143,7 +153,7 @@ entries:
   nebula-core:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.549292212Z"
+    created: "2024-02-12T13:19:24.226434804Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -163,7 +173,7 @@ entries:
   nebula-deps:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.566115055Z"
+    created: "2024-02-12T13:19:24.239496283Z"
     dependencies:
     - condition: contour.enabled
       name: contour
@@ -193,7 +203,7 @@ entries:
   nebula-sandbox:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.586845732Z"
+    created: "2024-02-12T13:19:24.253058573Z"
     dependencies:
     - condition: docker-registry.enabled
       name: docker-registry
@@ -225,7 +235,7 @@ entries:
   nebulaagent:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-11T13:19:06.58781314Z"
+    created: "2024-02-12T13:19:24.257870175Z"
     description: A Helm chart for Nebula agent
     digest: a3ef974b9a822f3e915ec8e35eab44bb4942ebd75827ebe6bb7033d8a87d0616
     name: nebulaagent
@@ -233,4 +243,4 @@ entries:
     urls:
     - packages/nebulaagent-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-11T13:19:06.527051723Z"
+generated: "2024-02-12T13:19:24.204030526Z"
