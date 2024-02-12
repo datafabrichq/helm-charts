@@ -3,7 +3,7 @@ entries:
   kozmo:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.72441064Z"
+    created: "2024-02-12T13:25:13.531152412Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -24,7 +24,7 @@ entries:
   kozmo-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.727175853Z"
+    created: "2024-02-12T13:25:13.534500033Z"
     description: The deployment component for Kozmo
     digest: e0daff953e92495f063f15b536a114262c88acbc95513a034bdc1b7d8cc962e4
     name: kozmo-deployment
@@ -34,7 +34,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a
-    created: "2024-02-12T13:25:10.726234549Z"
+    created: "2024-02-12T13:25:13.533186224Z"
     description: The deployment component for Kozmo
     digest: 568dc37b7d7349acb4f2a604c7b2d84c3cf882ef17473dc97c106cb43fad6616
     name: kozmo-deployment
@@ -44,7 +44,7 @@ entries:
     version: 0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a
   - apiVersion: v2
     appVersion: 0.0-7fe9b52d3b58cc4de7a90347260fae46505aabda
-    created: "2024-02-12T13:25:10.725281144Z"
+    created: "2024-02-12T13:25:13.532253819Z"
     description: The deployment component for Kozmo
     digest: 6c69f7baa42adce458a1a154012876bf7bdc8c6a836632a4e79e3e3d442f3de3
     name: kozmo-deployment
@@ -55,7 +55,7 @@ entries:
   kozmo-deployment-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.727964556Z"
+    created: "2024-02-12T13:25:13.535258938Z"
     description: A Helm chart for Kubernetes
     digest: 269dbafc6f15a6ba9b1aa8a064cccb797ea1540cd6a4fb90175272ea11abb402
     name: kozmo-deployment-comp-operator
@@ -66,7 +66,7 @@ entries:
   kozmo-deployment-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.740241013Z"
+    created: "2024-02-12T13:25:13.548105819Z"
     description: A Helm chart for Kubernetes
     digest: eafd2c02cb6228ed98341866b22536fa51513271c6fdfc173d326f4c758927d1
     name: kozmo-deployment-crds
@@ -76,7 +76,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a
-    created: "2024-02-12T13:25:10.736581496Z"
+    created: "2024-02-12T13:25:13.544605697Z"
     description: A Helm chart for Kubernetes
     digest: bac088f88c8cb3221689da49dc918fa1d90413f63fcfc1ecb55afc5de946db5e
     name: kozmo-deployment-crds
@@ -86,7 +86,7 @@ entries:
     version: 0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a
   - apiVersion: v2
     appVersion: 0.0-7fe9b52d3b58cc4de7a90347260fae46505aabda
-    created: "2024-02-12T13:25:10.732475077Z"
+    created: "2024-02-12T13:25:13.539187662Z"
     description: A Helm chart for Kubernetes
     digest: afe1e02dbf959175ec5a026df9c8179766000b3ef885de8e413ccd67a38b6d9a
     name: kozmo-deployment-crds
@@ -97,7 +97,7 @@ entries:
   kozmo-image-builder:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.742033821Z"
+    created: "2024-02-12T13:25:13.552044944Z"
     description: The image-builder component for Kozmo
     digest: 055d2a557c2424479a8e1dff373684ca076138d0ed13dff0b129747ffd8eddd4
     name: kozmo-image-builder
@@ -106,8 +106,18 @@ entries:
     - packages/kozmo-image-builder-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
+    appVersion: 0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a
+    created: "2024-02-12T13:25:13.551235738Z"
+    description: The image-builder component for Kozmo
+    digest: abca8c6107140fbba9fa46a90d5938bbba4e91af2acc3f18fd3ec5c689b2a290
+    name: kozmo-image-builder
+    type: application
+    urls:
+    - packages/kozmo-image-builder-0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a.tgz
+    version: 0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a
+  - apiVersion: v2
     appVersion: 0.0-7fe9b52d3b58cc4de7a90347260fae46505aabda
-    created: "2024-02-12T13:25:10.741051917Z"
+    created: "2024-02-12T13:25:13.549683729Z"
     description: The image-builder component for Kozmo
     digest: 7e1825a708e9c6b5b5e6607b52223f77fdc18305c8e1534eb56228640e6cc471
     name: kozmo-image-builder
@@ -118,7 +128,7 @@ entries:
   kozmo-image-builder-crds:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.743808629Z"
+    created: "2024-02-12T13:25:13.553387052Z"
     description: A Helm chart for Kubernetes
     digest: b00e11bb19c28295ef2908ccaf29c783f32ccc96aa086228d737e63863106091
     name: kozmo-image-builder-crds
@@ -128,7 +138,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a
-    created: "2024-02-12T13:25:10.743068026Z"
+    created: "2024-02-12T13:25:13.552723548Z"
     description: A Helm chart for Kubernetes
     digest: 2f306b638bc3029f831f331fc0f1646964554ca8c58a32ffbe30d1b457ff664f
     name: kozmo-image-builder-crds
@@ -139,7 +149,7 @@ entries:
   kozmo-logging-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.746537342Z"
+    created: "2024-02-12T13:25:13.555675666Z"
     description: A Helm chart for Kubernetes
     digest: ad0c6ee1355f43bf44da780f9e3aad45154ecc8505c1de7db2c593a776dda011
     name: kozmo-logging-comp-operator
@@ -149,7 +159,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a
-    created: "2024-02-12T13:25:10.745632938Z"
+    created: "2024-02-12T13:25:13.555030662Z"
     description: A Helm chart for Kubernetes
     digest: 5d81d2124f2798e529b30e3f38eff743d2beac6a48db3e221a8512a06c5a0e00
     name: kozmo-logging-comp-operator
@@ -159,7 +169,7 @@ entries:
     version: 0.0-9af0e09036a145b4b35347ad1d8ebae627880c0a
   - apiVersion: v2
     appVersion: 0.0-7fe9b52d3b58cc4de7a90347260fae46505aabda
-    created: "2024-02-12T13:25:10.744895734Z"
+    created: "2024-02-12T13:25:13.554398258Z"
     description: A Helm chart for Kubernetes
     digest: d0bb67ac9310fbc02b29649db77fe43e2ac25d67f0b43739a3d6be956129b9d1
     name: kozmo-logging-comp-operator
@@ -170,7 +180,7 @@ entries:
   kozmo-monitoring-comp-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.747211545Z"
+    created: "2024-02-12T13:25:13.55631427Z"
     description: A Helm chart for Kubernetes
     digest: 3099dbecbc84461587905fb1f3b67623482da3c45a52f0e083e35d13161f382f
     name: kozmo-monitoring-comp-operator
@@ -181,7 +191,7 @@ entries:
   nebula:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.749424555Z"
+    created: "2024-02-12T13:25:13.558019881Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -202,7 +212,7 @@ entries:
   nebula-binary:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.751943967Z"
+    created: "2024-02-12T13:25:13.561771305Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -223,7 +233,7 @@ entries:
   nebula-core:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.757393092Z"
+    created: "2024-02-12T13:25:13.567011038Z"
     dependencies:
     - alias: nebulaagent
       condition: nebulaagent.enabled
@@ -243,7 +253,7 @@ entries:
   nebula-deps:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.771676657Z"
+    created: "2024-02-12T13:25:13.584304047Z"
     dependencies:
     - condition: contour.enabled
       name: contour
@@ -273,7 +283,7 @@ entries:
   nebula-sandbox:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.788354634Z"
+    created: "2024-02-12T13:25:13.601620456Z"
     dependencies:
     - condition: docker-registry.enabled
       name: docker-registry
@@ -305,7 +315,7 @@ entries:
   nebulaagent:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-12T13:25:10.788995137Z"
+    created: "2024-02-12T13:25:13.602271561Z"
     description: A Helm chart for Nebula agent
     digest: a3ef974b9a822f3e915ec8e35eab44bb4942ebd75827ebe6bb7033d8a87d0616
     name: nebulaagent
@@ -313,4 +323,4 @@ entries:
     urls:
     - packages/nebulaagent-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-12T13:25:10.719164616Z"
+generated: "2024-02-12T13:25:13.522726458Z"
